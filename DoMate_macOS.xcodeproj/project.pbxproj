@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BA3606AD2D7AC32D00657179 /* Exceptions for "DoMate_macOS" folder in "DoMate_macOS" target */ = {
+		BA98AA1F2D7AE45600F3621B /* Exceptions for "DoMate_macOS" folder in "DoMate_macOS" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,14 +40,6 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		BA3606892D7AC32B00657179 /* DoMate_macOS */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				BA3606AD2D7AC32D00657179 /* Exceptions for "DoMate_macOS" folder in "DoMate_macOS" target */,
-			);
-			path = DoMate_macOS;
-			sourceTree = "<group>";
-		};
 		BA36069E2D7AC32D00657179 /* DoMate_macOSTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = DoMate_macOSTests;
@@ -56,6 +48,14 @@
 		BA3606A82D7AC32D00657179 /* DoMate_macOSUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = DoMate_macOSUITests;
+			sourceTree = "<group>";
+		};
+		BA98AA142D7AE45600F3621B /* DoMate_macOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BA98AA1F2D7AE45600F3621B /* Exceptions for "DoMate_macOS" folder in "DoMate_macOS" target */,
+			);
+			path = DoMate_macOS;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,7 +88,7 @@
 		BA36067E2D7AC32B00657179 = {
 			isa = PBXGroup;
 			children = (
-				BA3606892D7AC32B00657179 /* DoMate_macOS */,
+				BA98AA142D7AE45600F3621B /* DoMate_macOS */,
 				BA36069E2D7AC32D00657179 /* DoMate_macOSTests */,
 				BA3606A82D7AC32D00657179 /* DoMate_macOSUITests */,
 				BA3606882D7AC32B00657179 /* Products */,
@@ -121,7 +121,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				BA3606892D7AC32B00657179 /* DoMate_macOS */,
+				BA98AA142D7AE45600F3621B /* DoMate_macOS */,
 			);
 			name = DoMate_macOS;
 			packageProductDependencies = (

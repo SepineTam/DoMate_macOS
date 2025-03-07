@@ -13,12 +13,16 @@ struct DoEditorView: View {
     @Binding var document: DoDocument
     var projectURL: URL?
     
+    // 模型上下文 - 用于标签模板
     @Environment(\.modelContext) private var modelContext
     @State private var selectedLabel = ""
     
-    // 手动查询数据而不是使用@Query
+    // 项目数据管理器
+    @State private var dataManager: ProjectDataManager?
+    
+    // 数据
     @State private var tagTemplates: [TagTemplate] = []
-    @State private var dataFiles: [DataFile] = []
+    @State private var dataFiles: [DataFileMetadata] = []
     
     // 获取默认标签模板
     private var defaultTemplate: TagTemplate? {
@@ -66,19 +70,26 @@ struct DoEditorView: View {
     
     // 加载数据
     private func loadData() {
+        // 加载标签模板
         do {
             let templateDescriptor = FetchDescriptor<TagTemplate>()
             tagTemplates = try modelContext.fetch(templateDescriptor)
-            
-            let fileDescriptor = FetchDescriptor<DataFile>()
-            dataFiles = try modelContext.fetch(fileDescriptor)
         } catch {
-            print("加载数据错误: \(error)")
+            print("加载标签模板错误: \(error)")
+            tagTemplates = []
+        }
+        
+        // 加载数据文件标签
+        if let projectURL = projectURL {
+            dataManager = ProjectDataManager(projectURL: projectURL)
+            dataFiles = dataManager?.getAllDataFiles() ?? []
+        } else {
+            dataFiles = []
         }
     }
     
     // 在光标位置插入数据文件引用
-    private func insertDataReference(_ file: DataFile) {
+    private func insertDataReference(_ file: DataFileMetadata) {
         let reference = "\nuse \"\(file.path)\"\n"
         insertAtCursor(reference)
     }

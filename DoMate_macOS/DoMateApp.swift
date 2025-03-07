@@ -18,12 +18,20 @@ struct DoMateApp: App {
             DataFile.self,
             TagTemplate.self
         ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
+        
+        // 临时解决方案：使用内存存储，这样就不会有模式迁移的问题
+        // 注意：这会导致应用关闭后数据丢失，仅用于开发阶段测试
+        let modelConfiguration = ModelConfiguration(
+            schema: schema,
+            isStoredInMemoryOnly: true
+        )
 
         do {
-            return try ModelContainer(for: schema, configurations: modelConfiguration)
+            return try ModelContainer(for: schema, configurations: [modelConfiguration])
         } catch {
-            fatalError("Could not create ModelContainer: \(error)")
+            // 如果创建失败，记录错误并崩溃（这种情况应该不会发生，因为使用内存存储）
+            print("错误：无法创建ModelContainer: \(error.localizedDescription)")
+            fatalError("无法创建ModelContainer: \(error)")
         }
     }()
     
@@ -199,31 +207,6 @@ struct DoMateApp: App {
             let modelContext = sharedModelContainer.mainContext
             modelContext.delete(project)
             try? modelContext.save()
-        }
-    }
-}
-
-// 这是项目视图的占位符，您可以根据需要扩展它
-struct ProjectView: View {
-    let projectURL: URL
-    let onClose: () -> Void
-    
-    var body: some View {
-        VStack {
-            HStack {
-                Text("项目：\(projectURL.lastPathComponent)")
-                    .font(.title)
-                
-                Spacer()
-                
-                Button("关闭项目") {
-                    onClose()
-                }
-            }
-            .padding()
-            
-            Text("项目内容将在这里显示")
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
     }
 }

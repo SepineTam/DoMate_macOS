@@ -30,11 +30,13 @@ final class DataFile {
     var label: String          // 自定义标签/别名
     var path: String           // 数据文件的完整路径
     var dateAdded: Date        // 添加时间
+    var projectPath: String    // 所属项目路径
     
-    init(label: String, path: String) {
+    init(label: String, path: String, projectPath: String) {
         self.label = label
         self.path = path
         self.dateAdded = Date()
+        self.projectPath = projectPath
     }
 }
 
