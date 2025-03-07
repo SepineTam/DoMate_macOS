@@ -2,40 +2,93 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CFBundleDocumentTypes</key>
-	<array>
-		<dict>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
-			<key>LSHandlerRank</key>
-			<string>Default</string>
-			<key>LSItemContentTypes</key>
-			<array>
-				<string>com.example.item-document</string>
-			</array>
-			<key>NSUbiquitousDocumentUserActivityType</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER).exampledocument</string>
-		</dict>
-	</array>
-	<key>UTImportedTypeDeclarations</key>
-	<array>
-		<dict>
-			<key>UTTypeConformsTo</key>
-			<array>
-				<string>com.apple.package</string>
-			</array>
-			<key>UTTypeDescription</key>
-			<string>Example Document</string>
-			<key>UTTypeIdentifier</key>
-			<string>com.example.item-document</string>
-			<key>UTTypeTagSpecification</key>
-			<dict>
-				<key>public.filename-extension</key>
-				<array>
-					<string>exampledocument</string>
-				</array>
-			</dict>
-		</dict>
-	</array>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+        <!-- 原始示例文档类型 -->
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>LSHandlerRank</key>
+            <string>Default</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>com.example.item-document</string>
+            </array>
+            <key>NSUbiquitousDocumentUserActivityType</key>
+            <string>$(PRODUCT_BUNDLE_IDENTIFIER).exampledocument</string>
+        </dict>
+        <!-- Stata Do文件类型 -->
+        <dict>
+            <key>CFBundleTypeName</key>
+            <string>Stata Do File</string>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>LSHandlerRank</key>
+            <string>Owner</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>com.stata.do</string>
+            </array>
+            <key>NSDocumentClass</key>
+            <string>NSDocument</string>
+        </dict>
+    </array>
+    <key>UTImportedTypeDeclarations</key>
+    <array>
+        <!-- 原始示例文档类型 -->
+        <dict>
+            <key>UTTypeConformsTo</key>
+            <array>
+                <string>com.apple.package</string>
+            </array>
+            <key>UTTypeDescription</key>
+            <string>Example Document</string>
+            <key>UTTypeIdentifier</key>
+            <string>com.example.item-document</string>
+            <key>UTTypeTagSpecification</key>
+            <dict>
+                <key>public.filename-extension</key>
+                <array>
+                    <string>exampledocument</string>
+                </array>
+            </dict>
+        </dict>
+        <!-- Stata Do文件类型 -->
+        <dict>
+            <key>UTTypeConformsTo</key>
+            <array>
+                <string>public.plain-text</string>
+            </array>
+            <key>UTTypeDescription</key>
+            <string>Stata Do File</string>
+            <key>UTTypeIdentifier</key>
+            <string>com.stata.do</string>
+            <key>UTTypeTagSpecification</key>
+            <dict>
+                <key>public.filename-extension</key>
+                <array>
+                    <string>do</string>
+                </array>
+            </dict>
+        </dict>
+        <!-- Stata Dta数据文件类型 -->
+        <dict>
+            <key>UTTypeConformsTo</key>
+            <array>
+                <string>public.data</string>
+            </array>
+            <key>UTTypeDescription</key>
+            <string>Stata Data File</string>
+            <key>UTTypeIdentifier</key>
+            <string>com.stata.dta</string>
+            <key>UTTypeTagSpecification</key>
+            <dict>
+                <key>public.filename-extension</key>
+                <array>
+                    <string>dta</string>
+                </array>
+            </dict>
+        </dict>
+    </array>
 </dict>
 </plist>
