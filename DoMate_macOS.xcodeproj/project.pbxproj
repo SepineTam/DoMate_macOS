@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		BA36069C2D7AC32D00657179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA36067F2D7AC32B00657179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA3606862D7AC32B00657179;
+			remoteInfo = DoMate_macOS;
+		};
+		BA3606A62D7AC32D00657179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA36067F2D7AC32B00657179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA3606862D7AC32B00657179;
+			remoteInfo = DoMate_macOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA3606872D7AC32B00657179 /* DoMate_macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoMate_macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA36069B2D7AC32D00657179 /* DoMate_macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoMate_macOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3606A52D7AC32D00657179 /* DoMate_macOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoMate_macOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BA3606AD2D7AC32D00657179 /* Exceptions for "DoMate_macOS" folder in "DoMate_macOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BA3606862D7AC32B00657179 /* DoMate_macOS */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BA3606892D7AC32B00657179 /* DoMate_macOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BA3606AD2D7AC32D00657179 /* Exceptions for "DoMate_macOS" folder in "DoMate_macOS" target */,
+			);
+			path = DoMate_macOS;
+			sourceTree = "<group>";
+		};
+		BA36069E2D7AC32D00657179 /* DoMate_macOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DoMate_macOSTests;
+			sourceTree = "<group>";
+		};
+		BA3606A82D7AC32D00657179 /* DoMate_macOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DoMate_macOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA3606842D7AC32B00657179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3606982D7AC32D00657179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3606A22D7AC32D00657179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA36067E2D7AC32B00657179 = {
+			isa = PBXGroup;
+			children = (
+				BA3606892D7AC32B00657179 /* DoMate_macOS */,
+				BA36069E2D7AC32D00657179 /* DoMate_macOSTests */,
+				BA3606A82D7AC32D00657179 /* DoMate_macOSUITests */,
+				BA3606882D7AC32B00657179 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA3606882D7AC32B00657179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA3606872D7AC32B00657179 /* DoMate_macOS.app */,
+				BA36069B2D7AC32D00657179 /* DoMate_macOSTests.xctest */,
+				BA3606A52D7AC32D00657179 /* DoMate_macOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA3606862D7AC32B00657179 /* DoMate_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3606AE2D7AC32D00657179 /* Build configuration list for PBXNativeTarget "DoMate_macOS" */;
+			buildPhases = (
+				BA3606832D7AC32B00657179 /* Sources */,
+				BA3606842D7AC32B00657179 /* Frameworks */,
+				BA3606852D7AC32B00657179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BA3606892D7AC32B00657179 /* DoMate_macOS */,
+			);
+			name = DoMate_macOS;
+			packageProductDependencies = (
+			);
+			productName = DoMate_macOS;
+			productReference = BA3606872D7AC32B00657179 /* DoMate_macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA36069A2D7AC32D00657179 /* DoMate_macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3606B32D7AC32D00657179 /* Build configuration list for PBXNativeTarget "DoMate_macOSTests" */;
+			buildPhases = (
+				BA3606972D7AC32D00657179 /* Sources */,
+				BA3606982D7AC32D00657179 /* Frameworks */,
+				BA3606992D7AC32D00657179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA36069D2D7AC32D00657179 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BA36069E2D7AC32D00657179 /* DoMate_macOSTests */,
+			);
+			name = DoMate_macOSTests;
+			packageProductDependencies = (
+			);
+			productName = DoMate_macOSTests;
+			productReference = BA36069B2D7AC32D00657179 /* DoMate_macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA3606A42D7AC32D00657179 /* DoMate_macOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3606B62D7AC32D00657179 /* Build configuration list for PBXNativeTarget "DoMate_macOSUITests" */;
+			buildPhases = (
+				BA3606A12D7AC32D00657179 /* Sources */,
+				BA3606A22D7AC32D00657179 /* Frameworks */,
+				BA3606A32D7AC32D00657179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA3606A72D7AC32D00657179 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BA3606A82D7AC32D00657179 /* DoMate_macOSUITests */,
+			);
+			name = DoMate_macOSUITests;
+			packageProductDependencies = (
+			);
+			productName = DoMate_macOSUITests;
+			productReference = BA3606A52D7AC32D00657179 /* DoMate_macOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA36067F2D7AC32B00657179 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					BA3606862D7AC32B00657179 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BA36069A2D7AC32D00657179 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BA3606862D7AC32B00657179;
+					};
+					BA3606A42D7AC32D00657179 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BA3606862D7AC32B00657179;
+					};
+				};
+			};
+			buildConfigurationList = BA3606822D7AC32B00657179 /* Build configuration list for PBXProject "DoMate_macOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA36067E2D7AC32B00657179;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BA3606882D7AC32B00657179 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA3606862D7AC32B00657179 /* DoMate_macOS */,
+				BA36069A2D7AC32D00657179 /* DoMate_macOSTests */,
+				BA3606A42D7AC32D00657179 /* DoMate_macOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA3606852D7AC32B00657179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3606992D7AC32D00657179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3606A32D7AC32D00657179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA3606832D7AC32B00657179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3606972D7AC32D00657179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3606A12D7AC32D00657179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA36069D2D7AC32D00657179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA3606862D7AC32B00657179 /* DoMate_macOS */;
+			targetProxy = BA36069C2D7AC32D00657179 /* PBXContainerItemProxy */;
+		};
+		BA3606A72D7AC32D00657179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA3606862D7AC32B00657179 /* DoMate_macOS */;
+			targetProxy = BA3606A62D7AC32D00657179 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA3606AF2D7AC32D00657179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DoMate_macOS/DoMate_macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DoMate_macOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 5DNGLP5XJR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DoMate_macOS/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sepinetam.DoMate-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BA3606B02D7AC32D00657179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DoMate_macOS/DoMate_macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DoMate_macOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 5DNGLP5XJR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DoMate_macOS/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sepinetam.DoMate-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BA3606B12D7AC32D00657179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA3606B22D7AC32D00657179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BA3606B42D7AC32D00657179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DNGLP5XJR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sepinetam.DoMate-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoMate_macOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DoMate_macOS";
+			};
+			name = Debug;
+		};
+		BA3606B52D7AC32D00657179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DNGLP5XJR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sepinetam.DoMate-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoMate_macOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DoMate_macOS";
+			};
+			name = Release;
+		};
+		BA3606B72D7AC32D00657179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DNGLP5XJR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sepinetam.DoMate-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DoMate_macOS;
+			};
+			name = Debug;
+		};
+		BA3606B82D7AC32D00657179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DNGLP5XJR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sepinetam.DoMate-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DoMate_macOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA3606822D7AC32B00657179 /* Build configuration list for PBXProject "DoMate_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3606B12D7AC32D00657179 /* Debug */,
+				BA3606B22D7AC32D00657179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA3606AE2D7AC32D00657179 /* Build configuration list for PBXNativeTarget "DoMate_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3606AF2D7AC32D00657179 /* Debug */,
+				BA3606B02D7AC32D00657179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA3606B32D7AC32D00657179 /* Build configuration list for PBXNativeTarget "DoMate_macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3606B42D7AC32D00657179 /* Debug */,
+				BA3606B52D7AC32D00657179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA3606B62D7AC32D00657179 /* Build configuration list for PBXNativeTarget "DoMate_macOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3606B72D7AC32D00657179 /* Debug */,
+				BA3606B82D7AC32D00657179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA36067F2D7AC32B00657179 /* Project object */;
+}
